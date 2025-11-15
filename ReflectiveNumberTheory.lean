@@ -3,4 +3,4 @@
 import ReflectiveNumberTheory.Basic
 import ReflectiveNumberTheory.RiemannZeta
 import ReflectiveNumberTheory.Uniqueness
-import ReflectiveNumberTheory.ZRAP_V8.0_RNT
+import ReflectiveNumberTheory.ZRAPFormalization
