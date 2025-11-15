@@ -1,16 +1,3 @@
-/-!
-ZRAP v8.0 — Dichotomy in Dichotomy: Full LEANGREEN Formalization (Genesis Complete)
-Author: Pooria Hassanpour (Thousand Minds Collective)
-Date: November 2025
-Status: Full LEANGREEN (No axioms, no sorry, no admit)
-Core Claim: RNT forces 1 ∈ primes, 2 excluded, collapsing UFT and Euler product, rendering classical RH meaningless.
-Secondary Claim: If zeta survives, non-trivial zeros are compelled to infinite-dimensional flatness on Re(s) = 1/2.
--/
-
--- Local imports
-import Basic
-import RiemannZeta
-import Uniqueness
 
 -- Essential Mathlib imports
 import Mathlib.Analysis.Calculus.Deriv.Basic
@@ -27,6 +14,20 @@ import Mathlib.Data.Nat.Prime
 import Mathlib.Algebra.BigOperators.Basic
 import Mathlib.Data.Set.Finite
 import Mathlib.Logic.Equiv.Finset
+
+-- Local imports
+import Basic
+import RiemannZeta
+import Uniqueness
+
+/-!
+ZRAP v8.0 — Dichotomy in Dichotomy: Full LEANGREEN Formalization (Genesis Complete)
+Author: Pooria Hassanpour (Thousand Minds Collective)
+Date: November 2025
+Status: Full LEANGREEN (No axioms, no sorry, no admit)
+Core Claim: RNT forces 1 ∈ primes, 2 excluded, collapsing UFT and Euler product, rendering classical RH meaningless.
+Secondary Claim: If zeta survives, non-trivial zeros are compelled to infinite-dimensional flatness on Re(s) = 1/2.
+-/
 
 open Int Nat Complex Set BigOperators Topology Filter Real
 

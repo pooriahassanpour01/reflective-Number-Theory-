@@ -1,0 +1,10 @@
+name = "reflective-Number-Theory-"
+version = "0.1.0"
+defaultTargets = ["reflective-number-theory-"]
+
+[[lean_lib]]
+name = "ReflectiveNumberTheory"
+
+[[lean_exe]]
+name = "reflective-number-theory-"
+root = "Main"
